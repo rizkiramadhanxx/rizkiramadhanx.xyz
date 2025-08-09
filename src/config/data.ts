@@ -29,7 +29,7 @@ const data = {
         title: "Suxz Landing Page",
         url: {
           deploy: "https://suxz-codedesign-zeta.vercel.app/",
-          source: "https://github.com/rizkiramadhanx/suxz-codedesign",
+          source: "https://github.com/rizkiramadhanxx/suxz-codedesign",
         },
       },
       // {
@@ -38,7 +38,7 @@ const data = {
       //   technology: ["React", "Chakra", "Public API"],
       //   title: "Pahe.in: Movie App",
       //   url: {
-      //     deploy: "https://pahein.rizkiramadhanx.dev/",
+      //     deploy: "https://pahein.rizkiramadhanxx.dev/",
       //   },
       // },
       {
@@ -47,8 +47,8 @@ const data = {
         technology: ["React", "TailwindCSS", "Public API"],
         title: "The Quran App",
         url: {
-          deploy: "https://quran-app.rizkiramadhanx.dev/",
-          source: "https://github.com/rizkiramadhanx/quran-app-react",
+          deploy: "https://quran-app.rizkiramadhanxx.dev/",
+          source: "https://github.com/rizkiramadhanxx/quran-app-react",
         },
       },
       // {
@@ -97,7 +97,7 @@ const data = {
         title: "SIPUS (Sistem Informasi Perpustakaan",
         technology: ["Vue", "PrismaORM", "ExpressJS"],
         url: {
-          source: "https://github.com/rizkiramadhanx/fe-sipus",
+          source: "https://github.com/rizkiramadhanxx/fe-sipus",
         },
       },
     ],
