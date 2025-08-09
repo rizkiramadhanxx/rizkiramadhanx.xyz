@@ -1,25 +1,67 @@
-import Suxz from "@/assets/project/Suxz-landing-page.png";
-import QuranApp from "@/assets/project/Quran.png";
-import Dekoor from "@/assets/project/Dekoor.png";
-import Pahein from "@/assets/project/Pahein.png";
 import Infralib from "@/assets/project/Infralib.png";
-import TodoApp from "@/assets/project/TodoApp.png";
+import Komcards from "@/assets/project/Komcards.png";
 import Komship from "@/assets/project/Komship.png";
+import QuranApp from "@/assets/project/Quran.png";
 import SIPUS from "@/assets/project/SIPUS.jpg";
-import Komcards from "@/assets/project/Komcards.png"
+import Suxz from "@/assets/project/Suxz-landing-page.png";
+import TodoApp from "@/assets/project/TodoApp.png";
+import StockSense from "@/assets/project/stocksense.png";
+import KubikBilling from "@/assets/project/kubik-billing.jpg";
+import SparkERP from "@/assets/project/spark-erp.jpg";
+import SparkHRIS from "@/assets/project/spark-hris.jpg";
 
 const data = {
   project: {
     card: [
       {
+        image: KubikBilling,
+        title: "Kubik Billing",
+        technology: ["Tauri", "Golang", "SQLite"],
+        description:
+          "Kubik Billing is a PlayStation rental management system used to automatically track playtime, calculate hourly or package rates, monitor console status, and record transactions. With this system, rental owners can manage multiple consoles at once, add snacks or drinks to the bill, print payment receipts, and generate daily to monthly revenue reports without manual calculations",
+        url: {
+          deploy: "http://kubikcreative.gitbook.io/kubik-billing/",
+        },
+      },
+      {
+        image: StockSense,
+        title: "StockSense",
+        technology: ["React", "TailwindCSS", "Antd"],
+        description: "Analysis Stock App",
+        url: {
+          deploy: "https://stocksense.cloud",
+        },
+      },
+      {
+        image: SparkERP,
+        title: "Spark ERP",
+        technology: ["Mantine UI", "React", "Vite JS"],
+        description:
+          "Spark ERP project aims to integrate core business functions—such as finance, procurement, inventory, sales, and human resources—into a centralized system to improve operational efficiency, data accuracy, and decision-making. By streamlining processes and eliminating data silos, the ERP system will enhance real-time visibility across departments, reduce manual work, and support scalable growth. This project involves system selection, customization, data migration, user training, and phased implementation to ensure a smooth transition and long-term success.",
+        url: {
+          deploy:
+            "https://www.linkedin.com/in/rizkiramadhanx/details/projects/",
+        },
+      },
+      {
+        image: SparkHRIS,
+        title: "Spark HRIS",
+        technology: ["Mantine UI", "React", "Vite JS"],
+        description: "Development HRIS for 500+ User",
+        url: {
+          deploy:
+            "https://www.linkedin.com/in/rizkiramadhanx/details/projects/",
+        },
+      },
+      {
         image: Komcards,
-        title: 'Komcards',
+        title: "Komcards",
         description:
           "Komcards is a platform from Komerce that can simplify the payment process for all your business needs online. We are committed to continuing to support the domestic economy by making it easier to do business for MSMEs and online business people.",
         technology: ["Bootstrap", "NuxtJS"],
         url: {
           deploy: "https://komcards.id/",
-        }
+        },
       },
 
       {
