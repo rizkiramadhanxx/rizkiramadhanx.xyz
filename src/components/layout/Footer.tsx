@@ -21,7 +21,7 @@ const Contact = [
     icon: <AiOutlineMail size={30} className="hover:text-gray-500" />,
   },
   {
-    url: "https://github.com/rizkiramadhanx",
+    url: "https://github.com/rizkiramadhanxx",
     icon: <AiFillGithub size={30} className="hover:text-gray-500" />,
   },
   {
